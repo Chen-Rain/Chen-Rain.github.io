@@ -1,0 +1,58 @@
+---
+title: FRIENDS
+layout: default
+description: "～我的小伙伴们～"
+header-img: "img/tag-background.png"
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+	    <div class="row">
+	    	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+	    		<div class="site-heading">
+	    			<h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+	    			<!-- <hr class="small"> -->
+	    			<span class="subheading">{{ page.description }}</span>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+</header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- Tag cloud -->
+			<div id='tag_cloud' class="tags">
+				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+			</div>
+
+            <!-- Tag list -->
+			<div class="one-tag-list">
+			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+                    <span class="tag-text">生活与技术</span>
+                </span>
+				<div class="post-preview">
+				    <a href="#">
+				        <h2 class="post-title">
+                            如水随光
+				        </h2>
+				        <h3 class="post-subtitle">
+				            温柔可爱疯狂暴躁如我
+				        </h3>
+				    </a>
+					<a href="https://www.hopp.top">
+				        <h2 class="post-title">
+                            h0gan1ee
+				        </h2>
+				        <h3 class="post-subtitle">
+				            Tech, arts and more...
+				        </h3>
+				    </a>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</div>
+</div>
