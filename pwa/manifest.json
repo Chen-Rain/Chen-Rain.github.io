@@ -1,0 +1,19 @@
+{
+    "name": "Rain Chen",
+    "short_name": "Rain",
+    "description": "不以物喜，不以己悲，强极则辱，慧极必伤。",
+    "icons": [{
+        "src": "icons/favicon64.ico",
+        "sizes": "64x64",
+        "type": "image/ico"
+    }, {
+        "src": "icons/favicon128.ico",
+        "sizes": "128x128",
+        "type": "image/ico"
+    }],
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "start_url": "/",
+    "display": "standalone",
+    "origination": "portrait"
+}
