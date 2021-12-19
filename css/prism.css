@@ -7,10 +7,6 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clik
  * Mod by Rain Chen
  */
 
-@font-face {
-	font-family: "Fira Code";
-	src: url("../fonts/FiraCode-VF.ttf");
-}
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
