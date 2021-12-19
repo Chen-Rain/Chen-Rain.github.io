@@ -23,7 +23,7 @@ github_username: Chen-Rain    # GitHub 用户名
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 100
+paginate: 10
 # exclude some files and folders 排除文件和文件夹
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "RAEDME.md"]
 anchorjs: true
