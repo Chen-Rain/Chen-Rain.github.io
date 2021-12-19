@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Coca-Cola;
+    src: url("../fonts/Coca-ColaCareFontKaiTi.TTF");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0e1538;
+}
+.neobutton {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    bottom: -200px;
+    box-sizing: border-box;
+    width: 1250px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: row;
+    background: rgba(14, 21, 56, 0);
+}
+h1 {
+    position: absolute;
+    top: 50px;
+    letter-spacing: 4px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 85px;
+    color: #ffffff;
+}
+h2 {
+    z-index: 1;
+    position: absolute;
+    top: 175px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Coca-Cola;
+    font-size: 35px;
+    color: #ffffff;
+}
+.neo {
+    position: relative;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 40px;
+    transition: 1s;
+    text-decoration: none;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.neo:hover {
+    background: var(--clr);
+    box-shadow:
+        0 0 10px var(--clr),
+        0 0 30px var(--clr),
+        0 0 60px var(--clr),
+        0 0 100px var(--clr);
+}
+.neo::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 400%;
+    background: var(--clr);
+    transition: 1s;
+    animation: animate 2s linear infinite;
+    animation-delay: calc(0.33s * var(--i));
+}
+.neo:hover::before {
+    width: 120%;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.neo::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #0e1538;
+    transition: 0.5s;
+}
+.neo:hover::after {
+    background: var(--clr);
+}
+.neo span {
+    position: relative;
+    z-index: 1;
+    font-size: 2em;
+    color: #ffffff;
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+.neo:hover span {
+    opacity: 1;
+}
+img {
+    border-radius: 15px;
+}
+/*
+.indexpic {
+    display: flex;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+}
+*/
