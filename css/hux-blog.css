@@ -69,7 +69,7 @@
   display: none;
 }
 .side-catalog .catalog-toggle::before {
-  content: "−";
+  content: "-";
   position: relative;
   margin-right: 5px;
   bottom: 1px;
