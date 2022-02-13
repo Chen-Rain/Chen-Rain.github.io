@@ -21,6 +21,6 @@ If you are in China mainland, you may need to use "a more scientific way" to vis
 The blogs stand for personal opinions only, if you don't like it, just leave please.
 <br><br>
 
-> 本站点全部内容由 [Rain Chen](https://github.com/Chen-Rain) 制作，包括所有的图片及动画。
+> 本站点全部内容由 [Rain Chen](https://github.com/Chen-Rain) 制作，包括所有的图片及动画。<br>
 > 本站点使用了开源框架及其部分组件，在此对开发者们表示感谢！
 
