@@ -1,74 +1,69 @@
-# Site settings 网站设置
-title: Rain Chen    # 博客标题
-SEOTitle: Rain Chen's Blog | Rain Chen    # 标签选项卡标题
-header-img: img/home-bg-he.png    # 主页背景图
-email: chenrain2003@outlook.com    # 邮箱
-description: "Rain Chen's Blog"    # 描述
-keyword: "Rain Chen, Rain Chen's Blog"    # 关键词
-url: "htttps://chen-rain.github.io"    # 主机，绝对 URL
-baseurl: ""    # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Chen-Rain/Chen-Rain.github.io.git"    # 代码仓库
+# Site Settings
+encoding: UTF-8
+exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
+lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
+permalink: /blog/:year/:month/:day/:title/
+# remote_theme: yizeng/jekyll-theme-simple-texture
 
-# Sidebar settings 侧边栏设置
-sidebar: true    # 是否启用侧边栏
-sidebar-about-description: "不以物喜，不以己悲，强极则辱，慧极必伤。"    # 侧边栏“关于”描述
-sidebar-avatar: /img/RainChen.png    # 用户头像
+whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# SNS settings 社交网络设置
-# csdn_username: 
-# zhihu_username: 
-# facebook_username: 
-github_username: Chen-Rain    # GitHub 用户名
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
-paginate: 10
-# exclude some files and folders 排除文件和文件夹
-exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "RAEDME.md"]
-anchorjs: true
-
-Regeneration: true    # 允许在文件改变的时候重新生成网站
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
-
-# Markdown settings Markdown 设置
-# replace redcarpet to kramdown
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: https://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-highlighter: rouge    # rouge
-kramdwon:
-    input: GFM    # 使用 GitHub Favored Markdown 很重要
+kramdown:
+  auto_id_prefix: 'heading-'
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  toc_levels: 1..3
 
-# Gitalk 评论设置
-gitalk:
-    enable: true    # 启用 Gitalk 评论
-    clientID: ac142988a27f18e644eb    # 生成的 clientID
-    clientSecret: 0aa47927e8241552f0729413055912bc28404f3d    # 生成的 clientSecret
-    repo: Chen-Rain.github.io    # 仓库名称
-    owner: Chen-Rain    # 仓库拥有者，GitHub 用户名
-    admin: Chen-Rain    # 管理员
-    distractionFreeMode: true    # 是否启用类似 FB 的阴影遮罩
+sass:
+  style: compressed
 
-# Analystic settings 分析设置
-# Baidu Analystic
-ba_track_id: 
+# Site Data
+url: # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
+title: Rain Chen's Blog
+description: Everyone has her/his right to wear skirts!
+keywords: 'jekyll,theme,gem-based,blog'
+author:
+  name:
+  job_title:
+  location:
+  email:
+  social_links:
+    - name: facebook
+      url:
+    - name: github
+      url: https://github.com/chen-rain
+    - name: instagram
+      url:
+    - name: linkedin
+      url:
+    - name: stackoverflow
+      url:
+    - name: twitter
+      url: 
+    - name: vk
+      url:
+home:
+  section1: <h1>Rain Chen's Blog</h1>
+  section2: <h2>🏳️‍⚧️ Everyone has her/his right to wear skirts! 🏳️‍⚧️<br/>每个人都有穿裙子的权利！</h2>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/chen-rain" title="View on GitHub"></a></div>
+blog:
+  cc_license: # A link to CC License of your choice.
+  cc_license_image: # An image of your CC License. 
+  footer_content: 🏳️‍⚧️ Everyone has her/his right to wear skirts! 🏳️‍⚧️
 
-# Featured Tags 首页标签设置
-featured-tags: true    # 是否启用首页标签
-featured-condition-size: 0    # 如果标签大于这个数，就显示在首页
+disqus:
+  shortname: # e.g. yizeng
+  public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
+google_tag_manager: # e.g. 'GTM-KCQJXZ8F'
+addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-# Friends 友情链接
-friends: [
-    {
-        title: "Rain Chen",
-        href: "https://chen-rain.github.io"
-    },
-]
+paths:
+  home: /
+  blog: /blog/
+  categories: /blog/categories/
+  tags: /blog/tags/
