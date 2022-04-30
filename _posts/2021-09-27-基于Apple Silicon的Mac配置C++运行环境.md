@@ -4,12 +4,16 @@ title:      在基于 Apple Silicon 的 Mac 上配置 C++ 运行环境
 subtitle:   Apple M1 芯片
 date:       2021-09-27
 author:     Rain Chen
-header-img: img/posts.png
 catalog: true
 tags:
     - Mac
     - 开发与应用
 ---
+
+Contents
+- unordered list
+{:toc}
+
 # 在基于 Apple Silicon 的 Mac 上使用 Visual Studio Code 简单搭建 C++ 开发环境<br>Building C++ dev environment with Visual Studio simply on Mac based on Apple Silicon
 
 ### 打开 Visual Studio Code，安装以下扩展<br>Open Visual Studio Code and install the following extensions

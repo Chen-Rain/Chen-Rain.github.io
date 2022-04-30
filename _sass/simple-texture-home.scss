@@ -81,11 +81,13 @@ textarea {
 }
 
 #section0 {
-    background: url('/assets/images/home-bg-home.png') repeat fixed 0 0 #f0f0f0;
+    background: url('/assets/images/home-bg.png') no-repeat fixed 0 0 #f0f0f0;
+    background-size: 100% 100%;
 }
 
 #section1 {
-    background: url('/assets/images/home-bg-blog.png') repeat fixed 0 0 #150E1F;
+    background: url('/assets/images/home-bg.png') no-repeat fixed 0 0 #150E1F;
+    background-size: 100% 100%;
 }
 
 #fullPage-nav {

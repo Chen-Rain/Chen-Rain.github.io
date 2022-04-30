@@ -4,12 +4,15 @@ title:      macOS 上的 Visual Studio Code 配置
 subtitle:   C/C++, Python, Fortran, 适用于 Apple Silicon
 date:       2021-12-17
 author:     Rain Chen
-header-img: img/posts.png
 catalog: true
 tags:
     - Mac
     - 开发与应用
 ---
+
+Contents
+- unordered list
+{:toc}
 
 # macOS 上的 Visual Studio Code 配置
 

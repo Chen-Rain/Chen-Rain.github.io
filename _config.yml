@@ -3,7 +3,6 @@ encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
 lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
 permalink: /blog/:year/:month/:day/:title/
-# remote_theme: yizeng/jekyll-theme-simple-texture
 
 whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
 plugins:
@@ -22,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
+url: https://chen-rain.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Rain Chen's Blog
 description: Everyone has her/his right to wear skirts!
@@ -49,7 +48,7 @@ author:
       url:
 home:
   section1: <h1>Rain Chen's Blog</h1>
-  section2: <h2>🏳️‍⚧️ Everyone has her/his right to wear skirts! 🏳️‍⚧️<br/>每个人都有穿裙子的权利！</h2>
+  section2: <h2>🏳️‍⚧️ Everyone has her/his right to wear skirts! 🏳️‍⚧️</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/chen-rain" title="View on GitHub"></a></div>
 blog:
   cc_license: # A link to CC License of your choice.

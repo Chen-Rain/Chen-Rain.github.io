@@ -4,11 +4,14 @@ title:      花里胡哨！Code::Blocks 的美化教程来啦
 subtitle:   适用于 Windows 操作系统
 date:       2021-09-25
 author:     Rain Chen
-header-img: img/posts.png
 catalog: true
 tags:
     - 开发与应用
 ---
+
+Contents
+- unordered list
+{:toc}
 
 # Code::Blocks IDE 花里胡哨的美化教程
 
