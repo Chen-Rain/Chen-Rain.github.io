@@ -5,6 +5,7 @@ en: &en
   categories: 'Categories'
   close: 'Close'
   enter_blog: 'Enter Blog'
+  friends: 'Friends'
   last_updated: 'Last updated'
   menu: 'Menu'
   more: 'More'
